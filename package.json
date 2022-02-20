@@ -1,0 +1,17 @@
+{
+  "name": "externals-webpack-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run build && serve dist",
+    "build": "rimraf dist && webpack"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "rimraf": "^3.0.2",
+    "serve": "^13.0.2",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
